@@ -1,13 +1,12 @@
 const Car = require("./car");
 
-describe("The Car class", () => {
-  test("has four wheels", () => {
+describe("Car Class", () => {
+  test("Car has 4 wheels", () => {
     let car = new Car();
     expect(car.wheels).toBe(4);
   });
-
-  test.skip("bad wheels", () => {
+  test("Car has 3 wheels", () => {
     let car = new Car();
     expect(car.wheels).toBe(3);
-  });
-});
+  })
+})
