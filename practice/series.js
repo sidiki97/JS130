@@ -54,10 +54,8 @@ class Series {
 
         }
 
-        result = result.map(string => string.split('')
+        return result.map(string => string.split('')
         .map(char => Number(char)));
-
-        return result
 
     }
 }
